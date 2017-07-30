@@ -1,0 +1,15 @@
+body{
+	background-color: #f5f8fa;
+}
+.bg-primary {
+	background-color: #3097D1 !important;
+}
+
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px
+}
+
+.navbar{
+	 padding: .2rem 1rem 
+}
