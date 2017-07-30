@@ -1,15 +1,65 @@
 body{
 	background-color: #f5f8fa;
+	font-family: 'Work Sans', sans-serif;
+	color: #555C61;
+	font-size: 11pt;
+	background-image: url('imagens/muro_natural.jpg');
+	/*opacity: 0.9*/
 }
 .bg-primary {
 	background-color: #3097D1 !important;
 }
 
-.container-fluid{
-	padding-right: 0px;
-	padding-left: 0px
-}
-
 .navbar{
 	 padding: .2rem 1rem 
+}
+
+.corpo{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.offset-foto-perfil{
+	margin-top: -70px;
+}
+#lista-sobre {
+	margin-top: -20px;
+}
+
+#lista-sobre li {
+	text-decoration: none;
+	list-style: none;
+	margin-top: 10px;
+}
+.lista-sobre li .fa{
+	padding-right: 5%;
+}
+
+#lista-dados-post {
+	margin: 20px 0 0 0;
+	padding: 0;
+
+}
+
+#lista-dados-post li{
+	list-style: none;
+	margin-top: 10px;
+}
+
+.card-descricao-sobre{
+	margin-top: 20px
+}
+
+.blockquote{
+	font-size: 10pt;
+}
+.card-borda-azul{
+	border-bottom: 3px solid #3097D1;
+	border-left: 1px solid #3097D1;
+}
+
+@media (max-width: 750px) {
+  .card-conteudo {
+    margin-top: 30px;
+  }
 }
